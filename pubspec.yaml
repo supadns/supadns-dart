@@ -1,6 +1,7 @@
 name: supadns
-description: Bypass blocked DNS for Supabase using DNS-over-HTTPS
+description: Bypass blocked DNS for Supabase using DNS-over-HTTPS. A drop-in client that preserves TLS SNI when your ISP poisons Supabase domains.
 version: 1.0.0
+repository: https://github.com/supadns/supadns-dart
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
